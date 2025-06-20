@@ -1,3 +1,30 @@
 body{
   background: #112d91;
+  font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+h2{
+  font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.27273;
+    background: linear-gradient(180deg, #f6e229 0%, #ff9748 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 4px 4px 0 #053f45;
+}
+.span{
+  font-weight: 900;
+}
+@media only screen and (min-width: 1439px) {
+  body{
+    font-size: 18px; 
+  }
+  h2{
+    font-size: 52px;
+  }
 }
