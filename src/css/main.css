@@ -80,6 +80,9 @@
 .about-section{
     background: linear-gradient(360deg, #0e60f0 0%, #112d91 100%);
 }
+.about-subtitle{
+    text-align: left;
+}
 .about-text{
     margin-top: 40px;
     margin-bottom: 28px;
@@ -158,5 +161,171 @@ display: block;
 }
 .about-img-desk{
     display: block;
+}
+}
+/* How to Play Adventure Isles */
+.play-section{
+    background: linear-gradient(360deg, rgba(23, 15, 73, 0) 0%, #102e94 100%);
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 32px;
+}
+.play-item{
+    border-radius: 50px;
+    padding: 20px;
+        width: 335px;
+        height: auto;
+        background-color: #0034b4;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+}
+.play-item-one{
+    background-image: url("/img/play/wrapper.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 335px 136px;    
+}
+.play-item-two{
+    background-image: url("/img/play/wrapper.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 335px 160px;
+}
+.play-item-three{
+    background-image: url("/img/play/wrapper.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 335px 184px;
+}
+.play-img{
+    width: 68px;
+        height: 68px;
+}
+@media only screen and (min-width: 1439px) {
+ .play-subtitle{
+margin-left: 300px;
+ }
+.play-list{
+    margin-top: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 55px;
+    column-gap: 88px;
+    justify-content: center;
+}
+.play-item{
+    background-size: 516px 138px;
+    width: 516px;
+        height: 138px;
+        border-radius: 56px;
+}
+.play-item-one-left{
+    margin-left: 120px;
+}
+.play-img{
+    width: 98px;
+        height: 98px;
+}
+.play-text{
+    font-size: 16px;
+}
+}
+/* Key Features */
+.key-section{
+    background: linear-gradient(360deg, rgba(14, 96, 240, 0.35) 0%, rgba(23, 203, 231, 0.35) 100%);
+    height: 1299px;
+}
+.key-subtitle{
+margin-left: 30px;
+}
+.key-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.key-star-img{
+    width: 56px;
+    height: 57px;
+}
+.key-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.key-container{
+    position: relative;
+}
+.key-img {
+position: absolute;
+bottom: -402px;
+left:80px;
+}
+@media only screen and (min-width: 1439px) {
+.key-section{
+    height: 652px;
+}
+.key-subtitle {
+    margin-left:0;
+}
+.key-list{
+    flex-direction: row;
+    width: 980px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+ column-gap: 40px;
+        gap: 52px;   
+}
+.key-item{
+    width: 460px;
+        height: 76px;
+}
+.key-star-img{
+    width: 76px;
+    height: 76px;
+}
+.key-img{
+    left: 74%;
+    bottom: 6px;
+}
+}
+/* Farm and Build Your Dream Island */
+.farm-section{
+    background: linear-gradient(360deg, rgba(23, 15, 73, 0) 0%, #102e94 100%);    
+}
+.farm-wrapper{
+    width: 335px;
+}
+.farm-img{
+    margin-top: -20px;
+}
+.farm-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.farm-text{
+    font-weight: 500;
+}
+@media only screen and (min-width: 1439px) {
+.farm-wrapper {
+width: 900px;
+margin-left: 220px;
+}
+.farm-subtitle{
+    width: 900px;   
+}
+.farm-img{
+    margin-left: 80px;
+}
+.farm-text-wrapper{
+    width: 520px;
+        height: 344px;
+        margin-left: 740px;
+        margin-top: -450px;
 }
 }

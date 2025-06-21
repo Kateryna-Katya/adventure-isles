@@ -20,7 +20,7 @@ body{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.27;
-  text-align: left;
+  text-align: center;
   z-index: 1;
   text-shadow:
     -0.8px -0.8px 0 #7D4B00,
@@ -34,7 +34,7 @@ body{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.27;
-  text-align: left;
+  text-align: center;
   background: linear-gradient(180deg, #f6e229 0%, #ff9748 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -52,5 +52,6 @@ body{
   }
     .outline-text,
     .gradient-text{
-    font-size: 52px;  }
+    font-size: 52px;
+    }
 }
