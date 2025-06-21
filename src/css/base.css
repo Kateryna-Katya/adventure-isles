@@ -6,16 +6,42 @@ body{
     line-height: 1.5;
     color: #fff;
 }
-h2{
+.heading-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.outline-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
   font-family: "Inter", sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.27273;
-    background: linear-gradient(180deg, #f6e229 0%, #ff9748 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 5px 4px 4px 0 #053f45;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.27;
+  text-align: left;
+  z-index: 1;
+  text-shadow:
+    -0.8px -0.8px 0 #7D4B00,
+    0.8px -0.8px 0 #7D4B00,
+    -0.8px 0.8px 0 #7D4B00,
+    0.8px 0.8px 0 #7D4B00;
+}
+
+.gradient-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.27;
+  text-align: left;
+  background: linear-gradient(180deg, #f6e229 0%, #ff9748 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(5px 4px 4px #053f45);
 }
 .span{
   font-weight: 900;
@@ -24,7 +50,7 @@ h2{
   body{
     font-size: 18px; 
   }
-  h2{
-    font-size: 52px;
-  }
+    .outline-text,
+    .gradient-text{
+    font-size: 52px;  }
 }
