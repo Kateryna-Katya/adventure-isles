@@ -280,6 +280,7 @@ left:80px;
 }
 .key-subtitle {
     margin-left:0;
+    margin-top: 0;
 }
 .key-list{
     flex-direction: row;
@@ -299,7 +300,7 @@ left:80px;
 }
 .key-img{
     left: 74%;
-    bottom: 56px;
+    bottom: 2px;
 }
 }
 /* Farm and Build Your Dream Island */
