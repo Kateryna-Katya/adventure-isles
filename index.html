@@ -23,20 +23,118 @@
     <script type="module" crossorigin src="/adventure-isles/index.js"></script>
     <link rel="modulepreload" crossorigin href="/adventure-isles/assets/vendor-Sm41FR0M.js">
     <link rel="stylesheet" crossorigin href="/adventure-isles/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/adventure-isles/assets/styles-BPFXJ-NA.css">
+    <link rel="stylesheet" crossorigin href="/adventure-isles/assets/styles-DToc-BrL.css">
   </head>
-  <body>
-    <header class="header">
-  <div class="container">
-    
+  <body class="main-background">
+    <header class="header" id="site-header">
+  <div class="header-container container">
+      <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 12H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />  </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#About">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />About</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Key">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Features</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Play">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />How to Play</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Farm">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Farm & Build</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Island">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Explore the Island</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Quests">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Secrets & Quests</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Reviews">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Player Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Contact">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />Contact & Support</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">
+            <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />FAQ</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item home-link" href="index.html#Home">Home
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#About">About
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Key">Features
+        <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+      </a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Play">How to Play
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#Farm">Farm & Build
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#Island">Explore the Island
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#Quests">Secrets & Quests
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#Reviews">Player Reviews
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#Contact">Contact & Support
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+    <li><a class="menu-list-item" href="index.html#FAQ">FAQ
+      <img src="/adventure-isles/assets/star-Dsm5uS3L.png" alt="star" class="nav-icon" />
+    </a></li>
+  </ul>
+  <ul class="policy-navigation">
+    <li class="policy-link">
+      <a class="policy-underline" href="Privacy Policy.html">Privacy policy </a>
+    </li>
+    <li class="policy-link">
+      <a class="policy-underline" href="Terms and Conditions.html">Terms and conditions </a>
+    </li>
+    <li class="policy-link">
+      <a class="policy-underline" href="Cookies Policy.html">Cookie policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Home -->
-<section class="home-section">
+<section class="home-section" id="Home">
     <div class="container">
         <h1 class="visually-hidden">Adventure Isles</h1>
         <picture>
@@ -61,7 +159,7 @@
     </div>
 </section>
 <!-- About Adventure Isles -->
-<section class="about-section">
+<section class="about-section" id="About">
     <div class="container about-container">
         <div class="heading-wrapper">
             <h2 class="outline-text about-subtitle">About Adventure Isles</h2>
@@ -95,7 +193,7 @@
     </div>
 </section>
 <!-- How to Play Adventure Isles -->
-<section class="play-section">
+<section class="play-section" id="Key">
     <div class="container">
         <div class="heading-wrapper play-wrapper">
             <h2 class="outline-text play-subtitle">How to Play Adventure Isles</h2>
@@ -131,7 +229,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- Key Features -->
-<section class="key-section" id="Key">
+<section class="key-section" id="Play">
     <div class="container key-container">
         <div class="heading-wrapper">
             <h2 class="outline-text key-subtitle">Key Features</h2>
@@ -177,7 +275,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- Farm and Build Your Dream Island -->
-<section class="farm-section">
+<section class="farm-section" id="Farm">
     <div class="container">
         <div class="heading-wrapper farm-wrapper">
             <h2 class="outline-text farm-subtitle">Farm and Build Your Dream Island</h2>
@@ -200,7 +298,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- Explore the Island and Uncover Its Secrets -->
-<section class="secret-section">
+<section class="secret-section" id="Island">
     <div class="container">
         <div class="heading-wrapper">
             <h2 class="outline-text secret-title">Explore the Island and Uncover Its Secrets</h2>
@@ -226,7 +324,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- Secrets to Uncover and Quests to Complete -->
-<section class="quest-section">
+<section class="quest-section" id="Quests">
     <div class="container">
         <div class="heading-wrapper">
             <h2 class="outline-text quest-subtitle">Secrets to Uncover and Quests to Complete</h2>
@@ -242,7 +340,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- What Players Are Saying -->
-<section class="reviews-section">
+<section class="reviews-section" id="Reviews">
     <div class="container reviews-container">
         <div class="heading-wrapper">
         <h2 class="outline-text">What Players Are Saying</h2>
@@ -345,7 +443,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </section>
 <!-- Contact Us -->
-<article class="contact-section">
+<article class="contact-section" id="Contact">
     <div class="container">
         <div class="heading-wrapper">
             <h2 class="outline-text contact-text">Contact Us</h2>
@@ -371,7 +469,7 @@ Explore the island’s secrets, complete quests, and solve ancient puzzles.</p>
     </div>
 </article>
 <!-- Frequently Asked Questions -->
-<section class="faq-section">
+<section class="faq-section" id="FAQ">
     <div class="container faq-container">
         <div class="heading-wrapper">
             <h2 class="outline-text faq-text">Frequently Asked Questions</h2>
@@ -465,11 +563,41 @@ upgrade your buildings.
     </main>
 
     <footer class="footer">
-  <div class="container">
-  
+  <div class="container footer-container">
+    <div class="footer-wrapper">
+    <ul class="footer-navigation">
+      <li class="footer-link">
+        <a class="footer-underline" href="Privacy Policy.html">Privacy policy |</a>
+      </li>
+      <li class="footer-link">
+        <a class="footer-underline" href="Terms and Conditions.html">Terms and conditions |</a>
+      </li>
+      <li class="footer-link">
+        <a class="footer-underline" href="Cookies Policy.html">Cookie policy</a>
+      </li>
+    </ul>
+    <p class="footer-mail">Email: 
+      <a class="footer-mail-link" href="mailto:info@adventurejaba.site">info@adventurejaba.site</a>
+    </p>
+    <p class="footer-text">All rights reserved | Adventure Isles: Farm, Explore | adventurejaba.site | 2025</p>
   </div>
+</div>
 </footer>
-
+    <div id="cookie-popup" class="cookie-popup">
+    <div class="cookies-wrapper">
+    <button class="popup-close-button" aria-label="close button">
+        <img class="popup-svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPPSURBVHgB7Zi/UxNBFMffXsB4/HCuAeLYxOHH4GiRErqj0ElohI5OqNRKKK2Av4DYaSVUjhXQmKQCKodK7JgBnViZgMUZiCZAbn2PJOQu5pL7sWHG8T5Vsrd72bf79vu+WQAfHx8fn/8ZZvUgpETDOmcr2EFhjM9ltGQarpGQMjmrc/6YcUhnc4kFq34BqwfdweF1nHwUP4Yxzqku+e7Or8LXDFwDOPklzjkt3igu8VhPcFDLF7/sNuorWb+GaYYvYcY7tkK90SfQZgaUyThOftHYhpmgWfW33IFeeXCXVh4/KvQdV+MmMDbVK4+w08LBNghGUVRFuXnvNXB4amzHYFaPT5LLVuMsAzgtHGq98tCmMYgKqugg6LxJvDMB5ZS9Qud6/DiXet5sbKDZQwqiT36wdgH6KFA+1lB7gsNKvniYAo/Q5DlnW8z8flr5JZz8y1bjGdhk4FZsBXvPm34EYO+M/Z7QtG0NXHBHmYxccL4Ol0JRQ9f5LKbNmp13BMAmtNrdwSE8BkyttmH0oQ7onKFUo90CB/Qrj6Y4l2jyoVor0zoYG8/kErZ31nYABAax0yMP/wRzrip0TpwEMaDE5hmX3gIJQ4001pvx71piHxwggUOyWiLOGUzXyyxK3SfMZ7XVeNJ4zL2Vumaa/ISbYmn7DPw9kfLhg7r8BaYvZLVUvNEY0ng8nS/MrXy7yArTbs+R6wAIqyDwnCxntA9L1e+k8UEuU76rxn6k8Ue55Bx4wNEZqKdWKyQVTIexViuqGo8rNWYcSzKJk18Aj3jaASP9SmwVjZfJaqDMbuAPRKA+zbg+n82lXoEAPO2AkXzhcKOBzFJxMlRxpqHGPzs6Sb0BQQgLgCCZrQ/CQBo1PuZE4+3gWEZbvlCSLNPyDM5B+O+BQCo+ftHi8aUlpwoMAhGSQlUrzDmYNJ5kEtOJzsCVJWcgzYh0s54DoMnf4DLVgoZWuN2W3FMApPEB3vmxmRWuWfIS1YGwoZsQS+66Drixwu2w5K52gEwbmjf6B2WywqUSRH+cJjetxom25ITjAMgKA2fvoIEVRmvwudV4UZa8iiMZFWWFm1nyPuVhBBxg/y9lAyvsNX/dWPJ6WgZQtsJd+O+JmwqQCCtM2LXkVgRavbxihVVjuygrTNix5M3GWwbQ7LoDJ2950eSGcq24//6clW5X7HcVtTs4Es4XDyyVrendKJheVrbCqPFCfHw9WmG/0NCSM4gIuBul6w6YsHtX4wXaXdplY5uHu1HaAbaHMjnt9LrDC1QruuShb3S1jwZxtV277uPj4+Pz7/MHVQf/PehNQTEAAAAASUVORK5CYII=" alt="Close" width="24" height="24">
+    </button>
+    <img class="cookies-img" src="/adventure-isles/assets/cookie-vLc1cOg2.png" alt="Cookies Icon" width="77" height="68"/>
+    <p class="cookie-class">Our website use cookies. By continuing <span class="cook-desk">navigating</span>, we assume your permission to deploy cookies as detailed in our 
+        <a class="cookies-policy-link" href="Privacy Policy.html">Privacy Policy.</a></p>
+    <div class="cookie-buttons">
+        <button id="accept-cookies" class="btn-accept">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHCSURBVHgBrZaBVcIwEECvPAfoCHECGSFOgBtQJ0AnoE6gG9QNYANgAnUCygSywXnXXiGtTXtJ+e8dpekll0vuLkkgEERM6cFipOmcJMk33Bo2RJKT7NAPf3uCqdAghqRAPUuYAg2QkfwGGDzCFGQpQ1lDLJEGGfXSzjoGLT18M/4k2YKfFGLgffF4sXJ03j06O62dmTNYBtfc61I6/388OhZDo3fAS2aDdfqkI3rMi2d8jpUqwhNpsPRQL4+CEuoYOJE8kHDRMPLt8U7+LOC2GJLc823R7Okc4ihJrBh5VfYx1a9in3y0Jkvva0Wf40zhwTPJuU+p53Q5gZYeT5dKD2xHr0CFp00gdT3Zd94P0A+nUi4ecjBmME7ZGOVlcvcnI3lz3q1nAC59HxDGxegB2rPkRE6lnScTf4L8Z98UBzbA1SKuaIdxX0UvRSHv6Ta8f1V1cmjX5kF9snXVxbq2hlA4fa2yj2H9S57KDHLQ4+boWaGft7x0weEbXyvfSOZYnzybEd3hw0QG+cLbwWONB6gYLnA6hcpgxzhfQ48YDl9dVxAL1lGtNc5LuR7zLoEAsA55vglwlTLSXIrsKTpVp8wfCINOy1ucssAAAAAASUVORK5CYII=" alt="Cookie" width="14" height="14"> Accept cookies</button>
+        <button id="decline-cookies" class="btn-decline">Decline</button>
+    </div>
+    </div> 
+</div>
 
   </body>
 </html>
