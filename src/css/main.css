@@ -299,7 +299,7 @@ left:80px;
 }
 .key-img{
     left: 74%;
-    bottom: 6px;
+    bottom: 56px;
 }
 }
 /* Farm and Build Your Dream Island */
@@ -357,7 +357,7 @@ margin-left: 220px;
 }
 @media only screen and (min-width: 1439px) {
     .secret-section {
-        height: 997px;
+        height: 960px;
  }
     .secret-title{
         margin-left: 100px;
