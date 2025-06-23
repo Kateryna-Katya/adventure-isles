@@ -125,6 +125,9 @@ font-weight: 400;
     display: none;
 }
 @media only screen and (min-width: 1439px) {
+.about-section {
+    height: 1113px;
+}
 .about-desk {
 display: block;
 }
@@ -168,8 +171,7 @@ display: block;
 }
 /* How to Play Adventure Isles */
 .play-section{
-    height: 1240px;
-   
+    height: 1240px;   
 }
 .play-list{
     display: flex;
@@ -210,6 +212,9 @@ display: block;
         height: 68px;
 }
 @media only screen and (min-width: 1439px) {
+.play-section {
+    height: 846px;
+}
  .play-subtitle{
 margin-left: 300px;
  }
@@ -270,7 +275,7 @@ left:80px;
 }
 @media only screen and (min-width: 1439px) {
 .key-section{
-    height: 652px;
+    height: 650px;
 }
 .key-subtitle {
     margin-left:0;
@@ -347,6 +352,9 @@ margin-left: 220px;
         height: 181px;
 }
 @media only screen and (min-width: 1439px) {
+    .secret-section {
+        height: 997px;
+ }
     .secret-title{
         margin-left: 100px;
     }
