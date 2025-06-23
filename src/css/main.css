@@ -249,6 +249,7 @@ margin-left: 300px;
 }
 .key-subtitle{
 margin-left: 30px;
+margin-top: 50px;
 }
 .key-list{
     margin-top: 40px;
@@ -270,7 +271,7 @@ margin-left: 30px;
 }
 .key-img {
 position: absolute;
-bottom: -438px;
+bottom: -412px;
 left:80px;
 }
 @media only screen and (min-width: 1439px) {
@@ -305,6 +306,9 @@ left:80px;
 .farm-wrapper{
     width: 335px;
 }
+.farm-subtitle{
+    margin-top: 40px;
+}
 .farm-img{
     margin-top: -20px;
 }
@@ -336,7 +340,7 @@ margin-left: 220px;
 }
 /* Explore the Island and Uncover Its Secrets */
 .secret-section{
-    height: 950px;
+    height: 944px;
 }
 .secret-list{
     margin-top: 40px;
@@ -382,7 +386,7 @@ height: auto;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    height: 913px;
+    height: 918px;
 }
 .quest-text-wrapper{
     margin-top: 40px;
